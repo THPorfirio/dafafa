@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="css/stylesprod.css" />
+    <!--- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Java (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title> Produtos - Fafá atelier</title>
+      <link rel="stylesheet" href="css/modern-2026.css" />
+  </head>
+
+  <body> <!-- start of BODY-->
+
+    <!-- start of HEADER -->
+    
+    <header>
+      <!-- <img src="images/containerlogo.jpg" class="img-fluid" alt="Imagem responsiva"> -->
+        <!-- start bootstrap of HEADER -->
+        <nav class="navbar navbar-expand-lg">
+  
+          <!-- Logo do HEADER -->
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.svg" alt="Logotipo Fafá atelier" title="Fafá atelier" class="logofafa"/>
+          </a>
+                 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+  
+          <span class="navbar-toggler-icon"></span>
+          
+          </button>
+        
+          <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#sobre">sobre </a>
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Produtos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  
+                  <a class="dropdown-item" href="produtos.html">Convites</a>
+                
+                  <div class="dropdown-divider"></div>
+                  
+                  <a class="dropdown-item" href="padrinhos.html">Padrinho/Madrinha</a>
+  
+                  <div class="dropdown-divider"></div>
+                  
+                  <a class="dropdown-item" href="pajens.html">Pajens/Damas</a>
+  
+                  <div class="dropdown-divider"></div>
+                  
+                  <a class="dropdown-item" href="papelaria.html">Papelaria</a>
+                  
+                  <div class="dropdown-divider"></div>
+                  
+                  <a class="dropdown-item" href="lembrancas.html">lembranças</a>
+              
+                </div>
+              </li>
+  
+              <li class="nav-item">
+                  <a class="nav-link" href="https://leandrociccarelli.com.br/2022.1_aluno3/">blog</a>
+              </li>
+  
+              <li class="nav-item dropdown">
+  
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PT/BR
+                </a>
+  
+                <div class="dropdown-menu lan" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">EN</a>
+                </div>
+  
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="form.html">contato</a>
+              </li>
+  
+            </ul>
+  
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form> -->
+          </div>
+  
+        </nav>
+      
+    </header> <!-- last of HEADER -->
+
+      <!-- start of carousel
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block h-100 justify-content-center" src="images/container1.png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block h-100" src="images/container.jpg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block h-100" src="images/container3.jpg" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+
+    </div> -->
+    
+<!--     <div class="titlebox">
+       <p class="titulo"> Convites de Casamento </p>
+    </div> -->
+
+
+    
+    
+
+
+
+
+    <!-- start of carousel -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid " src="images/container1.png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="images/container.jpg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/container3.jpg" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+
+    </div> -->
+ 
+  <!-- inicio CATEGORIAS TRADICIONAIS-->
+  <div class="categorias">
+    <div class="titlebox">
+      <p class="titulo"> Padrinhos e Madrinhas </p>
+    </div>
+  <br>
+  <!-- incio convite vegetal-->
+    <section class="section1">
+
+      <div class="imgcat">
+      <!-- <div style="width: 350px; height: 350px; background-color:gray; display: flex; align-items: center;"></div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner fotoscat">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/convitevegetal.JPG" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal2.JPG" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal3.JPG" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+
+      <div class="texto1">
+      <h3 class="titulo">Caixa Bis Deslizante</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt veniam inventore delectus quae hic quo reprehenderit est, rem molestias aut eveniet consequatur fuga cupiditate quas aliquid omnis voluptatibus at!</p>
+
+      <div class="btsize" >
+        <a href="form.html">
+          <div class="finalbtn"></div>
+        </a>
+        <div>
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <!-- incio convite vegetal-->
+    <section class="section2">
+      <div class="texto2">
+        <h3 class="titulo">Caixa Padrinhos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt veniam inventore delectus quae hic quo reprehenderit est, rem molestias aut eveniet consequatur fuga cupiditate quas aliquid omnis voluptatibus at!</p>
+  
+        <div class="btsize" >
+          <div>
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+          </div>
+          <a href="form.html">
+            <div class="finalbtn1"></div>
+          </a>
+        </div>
+      
+      </div>
+
+
+      <div class="imgcat">
+      <!-- <div style="width: 350px; height: 350px; background-color:gray; display: flex; align-items: center;"></div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner fotoscat">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/convitevegetal.JPG" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal2.JPG" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal3.JPG" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+      
+      
+    </section>
+
+    <!-- incio convite vegetal-->
+    <section class="section1">
+      <div class="imgcat">
+      <!-- <div style="width: 350px; height: 350px; background-color:gray; display: flex; align-items: center;"></div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner fotoscat">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/convitevegetal.JPG" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal2.JPG" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal3.JPG" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+      
+      <div class="texto1">
+      <h3 class="titulo">Caixas Cartonadas</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt veniam inventore delectus quae hic quo reprehenderit est, rem molestias aut eveniet consequatur fuga cupiditate quas aliquid omnis voluptatibus at!</p>
+
+      <div class="btsize" >
+        <a href="form.html">
+          <div class="finalbtn"></div>
+        </a>
+        <div>
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- incio convite vegetal-->
+    <section class="section2">
+
+      <div class="texto2">
+        <h3 class="titulo">Caixa Balão</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt veniam inventore delectus quae hic quo reprehenderit est, rem molestias aut eveniet consequatur fuga cupiditate quas aliquid omnis voluptatibus at!</p>
+  
+        <div class="btsize" >
+          <div>
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+          </div>
+          <a href="form.html">
+            <div class="finalbtn1"></div>
+          </a>
+        </div>
+        </div>
+
+
+      <div class="imgcat">
+      <!-- <div style="width: 350px; height: 350px; background-color:gray; display: flex; align-items: center;"></div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner fotoscat">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/convitevegetal.JPG" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal2.JPG" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal3.JPG" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+      
+      
+    </section>
+
+    <!-- incio convite vegetal-->
+    <section class="section1">
+      <div class="imgcat">
+      <!-- <div style="width: 350px; height: 350px; background-color:gray; display: flex; align-items: center;"></div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner fotoscat">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/convitevegetal.JPG" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal2.JPG" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal3.JPG" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+      
+      <div class="texto1">
+      <h3 class="titulo">Caixa Saltos de Amor</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt veniam inventore delectus quae hic quo reprehenderit est, rem molestias aut eveniet consequatur fuga cupiditate quas aliquid omnis voluptatibus at!</p>
+
+      <div class="btsize" >
+        <a href="form.html">
+          <div class="finalbtn"></div>
+        </a>
+        <div>
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+        </div>
+      </div>
+      </div>
+    </section>
+
+  </div>
+  <!-- Final CATEGORIAS TRADICIONAIS-->
+
+  <!-- inicio CATEGORIAS INTERATIVOS-->
+<!--   <div class="categorias">
+    <div class="titlebox">
+      <p class="titulo"> Interativos </p>
+    </div>
+  <br> -->
+  <!-- incio convite vegetal-->
+    <section class="section2">
+
+      <div class="texto2">
+        <h3 class="titulo">Convite Cortina</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt veniam inventore delectus quae hic quo reprehenderit est, rem molestias aut eveniet consequatur fuga cupiditate quas aliquid omnis voluptatibus at!</p>
+  
+        <div class="btsize" >
+          <div>
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+          </div>
+          <a href="form.html">
+            <div class="finalbtn1"></div>
+          </a>
+        </div>
+        </div>
+
+
+
+      <div class="imgcat">
+      <!-- <div style="width: 350px; height: 350px; background-color:gray; display: flex; align-items: center;"></div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner fotoscat">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/convitevegetal.JPG" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal2.JPG" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal3.JPG" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+
+      
+
+    </section>
+
+    <!-- incio convite vegetal-->
+    <section class="section1">
+      <div class="imgcat">
+      <!-- <div style="width: 350px; height: 350px; background-color:gray; display: flex; align-items: center;"></div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner fotoscat">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/convitevegetal.JPG" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal2.JPG" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal3.JPG" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+      
+      <div class="texto1">
+      <h3 class="titulo">Convite Cascata</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt veniam inventore delectus quae hic quo reprehenderit est, rem molestias aut eveniet consequatur fuga cupiditate quas aliquid omnis voluptatibus at!</p>
+
+      <div class="btsize" >
+        <a href="form.html">
+          <div class="finalbtn"></div>
+        </a>
+        <div>
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+          <img src="images/ValorAtivo 29.svg" alt="Valor">
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- incio convite vegetal-->
+    <section class="section2">
+
+      <div class="texto2">
+        <h3 class="titulo">Manual dos Padrinhos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, deserunt veniam inventore delectus quae hic quo reprehenderit est, rem molestias aut eveniet consequatur fuga cupiditate quas aliquid omnis voluptatibus at!</p>
+  
+        <div class="btsize" >
+          <div>
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+            <img src="images/ValorAtivo 29.svg" alt="Valor">
+          </div>
+          <a href="form.html">
+            <div class="finalbtn1"></div>
+          </a>
+        </div>
+        </div>
+
+
+      <div class="imgcat">
+      <!-- <div style="width: 350px; height: 350px; background-color:gray; display: flex; align-items: center;"></div> -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner fotoscat">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/convitevegetal.JPG" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal2.JPG" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/convitevegetal3.JPG" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      </div>
+      
+      
+    </section>
+
+    
+
+  </div>
+  <!-- Final CATEGORIAS INTERATIVOS-->
+
+
+
+
+
+
+
+
+  <footer id="myFooter">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+            <img id="imgfooter" src="images/logobird.svg" alt="logofafafooter" title="logofafa"/>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="social-networks">
+            <a href="https://programadorviking.com.br/" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://programadorviking.com.br/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://programadorviking.com.br/" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="https://programadorviking.com.br/" class="instagram"><i class="fa fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>Tire seus sonhos do papel</p>
+    </div>          
+  </footer>
+
+    
+    <script src="js/modern-2026.js"></script>
+</body><!-- last of BODY -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <body>
+  <header>
+  <div class="container-fluid">
+      <div class="row fixed-top">
+          <div class="col-12">
+              <nav class="navbar navbar-expand-lg navbar-light bg-cabecalho">
+
+                  <a class="navbar-brand" href="index.html">
+                      <img src="images/logo.png" alt="Logotipo Fafá atelier" title="Fafá atelier"/>
+                  </a>
+                  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">sobre </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Produtos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Convites</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Convidados de honra</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Papelaria</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">lembranças</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">contato</a>
+                        </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">blog</a>
+                      </li>
+                    </ul>
+                  
+                  </div>
+                </nav>
+
+          </div>
+                 
+         
+       </div>
+  </header>  
+
+  <div class="card" >
+        <img class="card-img-top" src="images/1B7276E4-E16E-4886-A8CB-CCC34ED3DDE6.JPG" alt="Imagem de capa do card">
+        <div class="card-img-overlay d-flex butimg">
+          <button type="button" class="btn btn-success">Veja todos</button>
+          </div>
+      </div>
+  
+      <div class="card" >
+        <img class="card-img-top" src="images/1B7276E4-E16E-4886-A8CB-CCC34ED3DDE6.JPG" alt="Imagem de capa do card">
+        <div class="card-img-overlay d-flex butimg">
+          <button type="button" class="btn btn-success">Veja todos</button>
+          </div>
+      </div>       
+
+-->
+

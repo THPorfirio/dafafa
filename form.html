@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="css/stylesform.css" />
+    <!--- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Java (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title> Produtos - Fafá atelier</title>
+      <link rel="stylesheet" href="css/modern-2026.css" />
+  </head>
+
+  <body> <!-- start of BODY-->
+
+    <!-- start of HEADER -->
+    
+    <header>
+      <!-- <img src="images/containerlogo.jpg" class="img-fluid" alt="Imagem responsiva"> -->
+      <!-- start bootstrap of HEADER -->
+      <nav class="navbar navbar-expand-lg">
+
+        <!-- Logo do HEADER -->
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.svg" alt="Logotipo Fafá atelier" title="Fafá atelier" class="logofafa"/>
+        </a>
+               
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+
+        <span class="navbar-toggler-icon"></span>
+        
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#sobre">sobre </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Produtos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <a class="dropdown-item" href="produtos.html">Convites</a>
+                
+                <div class="dropdown-divider"></div>
+                
+                <a class="dropdown-item" href="padrinhos.html">Padrinho/Madrinha</a>
+
+                <div class="dropdown-divider"></div>
+                
+                <a class="dropdown-item" href="pajens.html">Pajens/Damas</a>
+
+                <div class="dropdown-divider"></div>
+                
+                <a class="dropdown-item" href="papelaria.html">Papelaria</a>
+                
+                <div class="dropdown-divider"></div>
+                
+                <a class="dropdown-item" href="lembrancas.html">lembranças</a>
+            
+              </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="https://leandrociccarelli.com.br/2022.1_aluno3/">blog</a>
+            </li>
+
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PT/BR
+              </a>
+
+              <div class="dropdown-menu lan" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">EN</a>
+              </div>
+
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">contato</a>
+            </li>
+
+          </ul>
+
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form> -->
+        </div>
+
+      </nav>
+    
+    </header> <!-- last of HEADER -->
+
+
+<div class="linha2">
+  <img src="images/Linha1.svg" alt="Linha1">
+</div>
+
+<section aria-labelledby="contato-title">
+  <div id="leftbox">
+    <div class="titulo" id="contato-title">Agradecemos o interesse!</div>
+    <img src="images/heart.svg" alt="" class="heart" aria-hidden="true">
+    <div class="texto"><p>Para mais informações, entre em contato com a Fafá.</p></div>
+  </div>
+
+  <article>
+    <form data-contact-form action="#" method="post" novalidate>
+      <div class="form__group">
+        <label class="form__label" for="name">Nome</label>
+        <input type="text" class="form__field" placeholder="Seu nome" name="name" id="name" autocomplete="name" required>
+      </div>
+
+      <div class="form__group">
+        <label class="form__label" for="email">E-mail</label>
+        <input type="email" class="form__field" placeholder="seu@email.com" name="email" id="email" autocomplete="email" required>
+      </div>
+
+      <div class="form__group">
+        <label class="form__label" for="telefone">Telefone</label>
+        <input type="tel" class="form__field" placeholder="(00) 00000-0000" name="telefone" id="telefone" autocomplete="tel" inputmode="tel" required>
+      </div>
+
+      <div class="form__group">
+        <label class="form__label" for="produto">Produto de interesse</label>
+        <select class="form__field" name="produto" id="produto" required>
+          <option value="" selected disabled>Selecione uma opção</option>
+          <option value="convites">Convites</option>
+          <option value="padrinhos">Padrinhos e madrinhas</option>
+          <option value="pajens">Pajens e damas</option>
+          <option value="papelaria">Papelaria</option>
+          <option value="lembrancas">Lembranças</option>
+        </select>
+      </div>
+
+      <div class="form__group">
+        <label class="form__label" for="coment">Mensagem</label>
+        <textarea class="form__field" placeholder="Conte um pouco sobre o seu projeto..." name="comentario" id="coment" rows="5" required></textarea>
+      </div>
+
+      <div class="btsize">
+        <button class="finalbtn" type="submit"><span aria-hidden="true">Enviar mensagem</span><span class="sr-only">Enviar mensagem</span></button>
+      </div>
+      <p data-form-status role="status" aria-live="polite"></p>
+    </form>
+  </article>
+</section>
+
+<div class="linha2">
+  <img src="images/Linha 2.svg" alt="Linha1">
+</div>
+
+
+<br>
+<footer>
+  <div class="content">
+  </div>
+      <footer id="myFooter">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-3">
+                    <img id="imgfooter" src="images/logobird.svg" alt="logofafafooter" title="logofafa"/>
+                  </div>
+
+                  <div class="col-sm-3">
+                      <div class="social-networks">
+                          <a href="https://programadorviking.com.br/" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+                          <a href="https://programadorviking.com.br/" class="facebook"><i class="fa fa-facebook"></i></a>
+                          <a href="https://programadorviking.com.br/" class="instagram"><i class="fa fa-instagram"></i></a>
+                          <a href="https://programadorviking.com.br/" class="instagram"><i class="fa fa-pinterest"></i></a>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+          <div class="footer-copyright">
+              <p>Tire seus sonhos do papel</p>
+          </div>
+</footer>
+
+    
+    <script src="js/modern-2026.js"></script>
+</body><!-- last of BODY -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <body>
+  <header>
+  <div class="container-fluid">
+      <div class="row fixed-top">
+          <div class="col-12">
+              <nav class="navbar navbar-expand-lg navbar-light bg-cabecalho">
+
+                  <a class="navbar-brand" href="index.html">
+                      <img src="images/logo.png" alt="Logotipo Fafá atelier" title="Fafá atelier"/>
+                  </a>
+                  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">sobre </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Produtos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Convites</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Convidados de honra</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Papelaria</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">lembranças</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">contato</a>
+                        </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">blog</a>
+                      </li>
+                    </ul>
+                  
+                  </div>
+                </nav>
+
+          </div>
+                 
+         
+       </div>
+  </header>  
+
+  <div class="card" >
+        <img class="card-img-top" src="images/1B7276E4-E16E-4886-A8CB-CCC34ED3DDE6.JPG" alt="Imagem de capa do card">
+        <div class="card-img-overlay d-flex butimg">
+          <button type="button" class="btn btn-success">Veja todos</button>
+          </div>
+      </div>
+  
+      <div class="card" >
+        <img class="card-img-top" src="images/1B7276E4-E16E-4886-A8CB-CCC34ED3DDE6.JPG" alt="Imagem de capa do card">
+        <div class="card-img-overlay d-flex butimg">
+          <button type="button" class="btn btn-success">Veja todos</button>
+          </div>
+      </div>       
+
+-->
+
