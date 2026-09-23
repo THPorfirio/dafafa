@@ -72,14 +72,18 @@ article{width:100%;height:auto;margin:2rem auto;display:block}
 .form__label{display:block;text-align:left;color:var(--fafa-green);font-weight:700;margin-top:.4rem}
 textarea.form__field{min-height:130px;resize:vertical}
 
-/* Footer */
-footer,#myFooter{margin-top:3rem;background:#f4f7f6;color:var(--fafa-text)}
+/* Footer — cores originais do projeto preservadas */
+footer,#myFooter{margin-top:3rem;background-color:#0F7B61!important;color:#FCFDFD!important;padding-top:30px}
 #myFooter .container{width:min(var(--content),92%);margin:auto;padding:2rem 0}
 #imgfooter{width:120px}
+#myFooter .row{margin-bottom:60px;display:flex;justify-content:space-between}
 .social-networks{display:flex;gap:.8rem;align-items:center;justify-content:center}
-.social-networks a{color:var(--fafa-green);font-size:1.4rem;text-decoration:none}
-.social-networks a:hover{color:var(--fafa-green-dark);transform:translateY(-2px)}
-.footer-copyright{text-align:center;padding:1rem;background:rgba(112,174,155,.08)}
+#myFooter .social-networks a{color:#FCFDFD;font-size:50px;padding:10px;text-decoration:none;transition:.2s}
+#myFooter .social-networks a:hover{color:#70ae9b;transform:translateY(-2px)}
+#myFooter a{color:#d2d1d1;text-decoration:none}
+#myFooter .footer-copyright,.footer-copyright{background-color:#70ae9b!important;padding-top:3px;padding-bottom:3px;text-align:center}
+#myFooter .footer-copyright p{margin:10px;color:#FCFDFD!important}
+#myFooter .btn{color:white;background-color:#d84b6b;border-radius:20px;border:none;width:150px;display:block;margin:10px auto 0;line-height:25px}
 
 /* Accessibility */
 :focus-visible{outline:3px solid rgba(15,123,97,.45);outline-offset:3px}
